@@ -37,7 +37,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Attribute | Details |
 |---|---|
@@ -59,7 +59,7 @@ Base Model: MobileNetV2 (Frozen)
 Classifier Head: GlobalAveragePooling2D → Dense(128, ReLU) → Dropout(0.3) → Dense(1, Sigmoid)
 Class Weights: Applied balanced weights to handle class imbalance (155 vs 98).
 
-## 📈 Results
+## Results
 The project conducted three distinct experiments to find the most honest and robust architecture:
 | Metric | Custom CNN (Baseline) | Custom CNN (Weighted) | **MobileNetV2 (Weighted)** |
 | :--- | :--- | :--- | :--- |
@@ -73,12 +73,12 @@ Note: The baseline Custom CNN suffered from a high false-positive rate (14 healt
 ---
 
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This application is a **research prototype** for educational purposes only. It is **NOT** a certified medical device and should **NOT** replace professional medical diagnosis.
 
 ---
 
-## 📚 References
+## References
 
 - Kaggle Dataset: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
